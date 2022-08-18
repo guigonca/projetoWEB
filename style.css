@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+    header{
+        background-color: rgb(255, 101, 0);
+        margin: 0px;
+        padding: 20px;
+    }
+    body{
+        margin: 0px;
+    }
+    #carrinho{
+        position: absolute;
+        right: 200px;
+        top: 20px;
+    }
+    #perfil{
+        position: absolute;
+        right: 100px;
+        top: 20px
+    }
+    div{
+        background-color: rgb(54, 51, 245);
+        margin: 0px;
+        height: 20px;
+    }
+    #barrabusca{
+        position: absolute;
+        top: 70px;
+        right: 70px;
+        
+        
+        
+    }
