@@ -4,6 +4,7 @@
         background-color: rgb(255, 101, 0);
         margin: 0px;
         padding: 20px;
+        
     }
     body{
         margin: 0px;
@@ -20,14 +21,17 @@
     }
     div{
         background-color: rgb(54, 51, 245);
-        margin: 0px;
-        height: 20px;
+        
+        height: 10px;
+        
     }
     #barrabusca{
         position: absolute;
         top: 70px;
-        right: 70px;
-        
-        
+        right: 70px;    
         
     }
+    #perfildocliente{
+        text-align: center;
+    }
+    
