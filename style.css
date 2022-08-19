@@ -8,6 +8,7 @@
     }
     body{
         margin: 0px;
+        background-color: rgb(255, 255, 255)
     }
     #carrinho{
         position: absolute;
@@ -33,5 +34,15 @@
     }
     #perfildocliente{
         text-align: center;
+    }
+    #sobrenos{
+        text-align: center
+        color: black; 
+    }
+    #descricao{
+        margin: 10px;
+    }
+    p{
+        margin: 10px;
     }
     
