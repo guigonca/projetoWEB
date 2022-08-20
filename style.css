@@ -1,4 +1,7 @@
 @charset "UTF-8";
+    *{
+        font-family: roboto, sans-serif;
+    }
 
     header{
         background-color: rgb(255, 101, 0);
@@ -8,7 +11,8 @@
     }
     body{
         margin: 0px;
-        background-color: rgb(255, 255, 255)
+        background-color: rgb(90, 89, 89)
+        
     }
     #carrinho{
         position: absolute;
@@ -20,29 +24,24 @@
         right: 100px;
         top: 20px
     }
-    div{
-        background-color: rgb(54, 51, 245);
-        
-        height: 10px;
-        
-    }
+    
     #barrabusca{
         position: absolute;
         top: 70px;
         right: 70px;    
         
     }
-    #perfildocliente{
-        text-align: center;
+    main{
+       width: 960px;
+       background-color: aliceblue;
+       margin: auto;    
+       padding: 20px;
+       text-align: justify;
+
     }
-    #sobrenos{
-        text-align: center;
-        color: black; 
+    h1{
+        font-size: 50px;
+        color: rgb(27, 27, 172);
     }
-    #descricao{
-        margin: 10px;
-    }
-    p{
-        margin: 10px;
-    }
+    
     
