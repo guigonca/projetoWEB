@@ -1,47 +1,34 @@
 @charset "UTF-8";
-    *{
-        font-family: roboto, sans-serif;
-    }
 
-    header{
-        background-color: rgb(255, 101, 0);
-        margin: 0px;
-        padding: 20px;
-        
-    }
-    body{
-        margin: 0px;
-        background-color: rgb(90, 89, 89)
-        
-    }
-    #carrinho{
-        position: absolute;
-        right: 200px;
-        top: 20px;
-    }
-    #perfil{
-        position: absolute;
-        right: 100px;
-        top: 20px
-    }
+*{
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 150px;
+    width: 1024px;
+    margin: auto;
+    background-color: rosybrown;
     
-    #barrabusca{
-        position: absolute;
-        top: 70px;
-        right: 70px;    
-        
-    }
-    main{
-       width: 960px;
-       background-color: aliceblue;
-       margin: auto;    
-       padding: 20px;
-       text-align: justify;
-
-    }
-    h1{
-        font-size: 50px;
-        color: rgb(27, 27, 172);
-    }
+}
+header nav{
+    width: 1024px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;   
+    list-style: none; 
+}
+header ul li a{
+    text-decoration: none;
+}
+main{
+    text-align: justify;
+    width: 1024px;
+    margin: auto;
+    background-color: rgb(255, 255, 255)
     
+}
     
