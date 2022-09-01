@@ -1,0 +1,121 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --cor-de-fundo: rgb(231, 134, 7);
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-azul: rgb(0,0,255);
+    --cor-preto: rgb(0, 0, 0);
+    --cor-laranja-claro: rgb(255, 235, 205);
+}
+header{
+    width: 1024px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+}
+header nav{
+    height: 40px;
+    width: 1024px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--cor-azul);
+    
+}
+nav ul{
+    background-color: var(--cor-azul);
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    top: 10px;
+    
+}
+nav ul li a{
+    font-size: 18px;   
+    text-decoration: none;
+    color: white;    
+}
+
+body{
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--cor-de-fundo);
+}
+main{
+    position: relative;
+    width: 1024px;
+    text-align: justify;
+    margin:auto;
+    background-color: var(--cor-secundaria);
+    padding: 15px;
+}
+.sobreSenac{
+    font-size: 50px;
+    color: var(--cor-azul);
+    padding: 15px;
+}
+nav ul li:hover{
+    background: var(--cor-de-fundo);
+}
+aside, figure{
+    float: right;
+    border: 5px solid black;
+}
+figure{
+    height: 295px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    margin: 0px;
+}
+figure h1 {
+    
+    position: relative;
+    bottom: 5px;
+    color: var(--cor-secundaria);
+    background-color: rgb(151, 151, 151);
+    font-size: 15px;
+    text-align: center;
+}
+aside{
+    width: 18%;
+    position: absolute;
+    top: 310px;
+    right: 35px;
+    clear: right;
+}
+aside nav ul{
+    display: block;
+    list-style-type: none;
+}
+aside nav ul li{
+    text-align: center;
+    padding: 10px;
+}
+.imagens{
+    background-color: blue;
+    list-style-type: none;
+}
+.imagens li{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github{
+    background-image: url(./imagens\ site/.github.png);
+}
+.twitter{
+    background-image: url(./imagens\ site/twitter.png);
+}
+.linkedin{
+    background-image: url(./imagens\ site/linkedin.png)
+}
